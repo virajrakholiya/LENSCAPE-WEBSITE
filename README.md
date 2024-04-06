@@ -1,3 +1,5 @@
+![screencapture-localhost-3000-2024-04-06-21_34_24](https://github.com/virajrakholiya/LENSCAPE-WEBSITE/assets/94692042/c903f681-34d4-4f08-a1e5-259160dc79e6)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
