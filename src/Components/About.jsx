@@ -3,7 +3,6 @@ import pic from "./../../public/image/2.png";
 import pic2 from "../../public/image/3.png";
 import Link from "next/link";
 
-
 function About() {
   return (
     <div className="mt-16 max-sm:mt-10">
@@ -34,7 +33,6 @@ function About() {
       <Link href={"#"} className="text-lg underline">
         See More Details
       </Link>
-      
     </div>
   );
 }

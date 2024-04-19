@@ -40,8 +40,8 @@ function Footer() {
   const media = [
     { id: 1, name: "Instagram" },
     { id: 1, name: "Youtube" },
-    { id: 1, name: "Facebook" }
-];
+    { id: 1, name: "Facebook" },
+  ];
   return (
     <div className="mt-10 flex flex-wrap justify-between">
       <div className="flex flex-col gap-5">
@@ -60,7 +60,7 @@ function Footer() {
         <h1 className="font-semibold">Services</h1>
         {Services.map((item, index) => {
           return (
-            <Link href={"#"} className="text-mini uppercase">
+            <Link href={"#"} className="uppercase text-mini">
               {item.name}
             </Link>
           );
@@ -71,7 +71,7 @@ function Footer() {
         <h1 className="font-semibold">Social Media</h1>
         {media.map((item, index) => {
           return (
-            <Link href={"#"} className="text-mini uppercase">
+            <Link href={"#"} className="uppercase text-mini">
               {item.name}
             </Link>
           );

@@ -7,7 +7,7 @@ function HeroSection() {
     <div className="text-black ">
       <p className="font-semiblod "> LET'S US HELP CREATE YOURS</p>
       <h1 className="mt-5 text-8xl max-md:text-5xl">CAPTURE LIFE'S BEAUTY</h1>
-      <p className="text-font mt-10 max-sm:mt-5 text-mini">
+      <p className="text-font mt-10 text-mini max-sm:mt-5">
         Where every click tells a story - embark on a journey through the
         Lenscape experience and rediscover the world through our lenses
       </p>
@@ -18,7 +18,7 @@ function HeroSection() {
         src={picture}
         width={""}
         height={""}
-        className="mt-20 h-[120vh] max-sm:mt-10 w-full max-md:h-[100vh] max-sm:h-[80vw] object-cover object-center"
+        className="mt-20 h-[120vh] w-full object-cover object-center max-md:h-[100vh] max-sm:mt-10 max-sm:h-[80vw]"
         alt="Picture of the author"
       />
     </div>
