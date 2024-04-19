@@ -1,11 +1,11 @@
 import Image from "next/image";
 import { HiOutlineArrowRight } from "react-icons/hi";
-import picture from "../../public/image/1.png"; // Import the image file
+import picture from "../../public/image/1.png";
 
 function HeroSection() {
   return (
     <div className="text-black ">
-      <p className="font-semiblod "> LET'S US HELP CREATE YOURS</p>
+      <p className="font-semiblod "> LET&asop;S US HELP CREATE YOURS</p>
       <h1 className="mt-5 text-8xl max-md:text-5xl">CAPTURE LIFE'S BEAUTY</h1>
       <p className="text-font mt-10 text-mini max-sm:mt-5">
         Where every click tells a story - embark on a journey through the

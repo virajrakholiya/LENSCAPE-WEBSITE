@@ -49,7 +49,7 @@ function Footer() {
         <h1 className="font-semibold">Quick Link</h1>
         {data.map((item, index) => {
           return (
-            <Link href={"#"} className="text-mini">
+            <Link href={"#"} className="text-mini" key={index}>
               {item.name}
             </Link>
           );
